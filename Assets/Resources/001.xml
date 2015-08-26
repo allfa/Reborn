@@ -1,0 +1,44 @@
+<Map MapperVersion="0.1.0">
+  <Elements>
+    <Element x="24" y="8" data="6" />
+    <Element x="26" y="8" data="7" />
+    <Element x="28" y="8" data="7" />
+    <Element x="1" y="9" data="8" />
+    <Element x="24" y="11" data="5" />
+    <Element x="26" y="11" data="5" />
+    <Element x="21" y="13" data="5" />
+    <Element x="23" y="13" data="5" />
+    <Element x="26" y="14" data="3" />
+    <Element x="0" y="15" data="1" />
+    <Element x="2" y="15" data="1" />
+    <Element x="3" y="15" data="1" />
+    <Element x="4" y="15" data="1" />
+    <Element x="5" y="15" data="1" />
+    <Element x="6" y="15" data="1" />
+    <Element x="7" y="15" data="1" />
+    <Element x="8" y="15" data="1" />
+    <Element x="9" y="15" data="1" />
+    <Element x="10" y="15" data="1" />
+    <Element x="11" y="15" data="1" />
+    <Element x="12" y="15" data="1" />
+    <Element x="13" y="15" data="1" />
+    <Element x="14" y="15" data="1" />
+    <Element x="15" y="15" data="1" />
+    <Element x="16" y="15" data="1" />
+    <Element x="17" y="15" data="1" />
+    <Element x="18" y="15" data="2" />
+    <Element x="19" y="15" data="2" />
+    <Element x="20" y="15" data="1" />
+    <Element x="21" y="15" data="1" />
+    <Element x="22" y="15" data="1" />
+    <Element x="23" y="15" data="1" />
+    <Element x="24" y="15" data="1" />
+    <Element x="25" y="15" data="1" />
+    <Element x="26" y="15" data="1" />
+    <Element x="27" y="15" data="1" />
+    <Element x="28" y="15" data="1" />
+    <Element x="1" y="16" data="1" />
+    <Element x="13" y="16" data="1" />
+    <Element x="0" y="19" data="4" />
+  </Elements>
+</Map>

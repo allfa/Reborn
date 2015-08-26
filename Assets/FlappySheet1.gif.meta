@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: c75e2c1ba73a3434fa347d1c344a70cf
+timeCreated: 1435600154
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FlappySheet1_0
+    21300002: FlappySheet1_1
+    21300004: FlappySheet1_2
+    21300006: FlappySheet1_3
+    21300008: FlappySheet1_4
+    21300010: FlappySheet1_5
+    21300012: FlappySheet1_6
+    21300014: FlappySheet1_7
+    21300016: FlappySheet1_8
+    21300018: FlappySheet1_9
+    21300020: FlappySheet1_10
+    21300022: FlappySheet1_11
+    21300024: FlappySheet1_12
+    21300026: FlappySheet1_13
+    21300028: FlappySheet1_14
+    21300030: FlappySheet1_15
+    21300032: FlappySheet1_16
+    21300034: FlappySheet1_17
+    21300036: FlappySheet1_18
+    21300038: FlappySheet1_19
+    21300040: FlappySheet1_20
+    21300042: FlappySheet1_21
+    21300044: FlappySheet1_22
+    21300046: FlappySheet1_23
+    21300048: FlappySheet1_24
+    21300050: FlappySheet1_25
+    21300052: FlappySheet1_26
+    21300054: FlappySheet1_27
+    21300056: FlappySheet1_28
+    21300058: FlappySheet1_29
+    21300060: FlappySheet1_30
+    21300062: FlappySheet1_31
+    21300064: FlappySheet1_32
+    21300066: FlappySheet1_33
+    21300068: FlappySheet1_34
+    21300070: FlappySheet1_35
+    21300072: FlappySheet1_36
+    21300074: FlappySheet1_37
+    21300076: FlappySheet1_38
+    21300078: FlappySheet1_39
+    21300080: FlappySheet1_40
+    21300082: FlappySheet1_41
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 291
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FlappySheet1_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 7742
+        width: 359
+        height: 390
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_1
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 7742
+        width: 386
+        height: 420
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_2
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 7937
+        width: 199
+        height: 163
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_3
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 7742
+        width: 386
+        height: 420
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_4
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 7742
+        width: 358
+        height: 390
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 7231
+        width: 387
+        height: 419
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_6
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 7231
+        width: 390
+        height: 391
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_7
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 7231
+        width: 386
+        height: 419
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6685
+        width: 356
+        height: 423
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_9
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 6685
+        width: 390
+        height: 391
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_10
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 6749
+        width: 390
+        height: 359
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_11
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 6717
+        width: 390
+        height: 391
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_12
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 6717
+        width: 355
+        height: 423
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 6048
+        width: 390
+        height: 418
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_14
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 6048
+        width: 390
+        height: 390
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_15
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 6048
+        width: 387
+        height: 418
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_16
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 5629
+        width: 390
+        height: 231
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_17
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 5629
+        width: 454
+        height: 263
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_18
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 5629
+        width: 390
+        height: 231
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_19
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 4960
+        width: 423
+        height: 418
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_20
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 4960
+        width: 323
+        height: 386
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_21
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 4960
+        width: 358
+        height: 418
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_22
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 4960
+        width: 326
+        height: 418
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_23
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 4414
+        width: 327
+        height: 422
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_24
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 4414
+        width: 358
+        height: 422
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_25
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 4414
+        width: 323
+        height: 390
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_26
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 4414
+        width: 423
+        height: 422
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_27
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 3549
+        width: 581
+        height: 582
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_28
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 3581
+        width: 581
+        height: 550
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_29
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 3549
+        width: 582
+        height: 582
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_30
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 2812
+        width: 582
+        height: 582
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_31
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 2848
+        width: 582
+        height: 546
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_32
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 2784
+        width: 582
+        height: 578
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_33
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 2078
+        width: 581
+        height: 582
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_34
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 2078
+        width: 582
+        height: 550
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_35
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1341
+        width: 578
+        height: 550
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_36
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1341
+        width: 582
+        height: 582
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_37
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 767
+        width: 581
+        height: 419
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_38
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 799
+        width: 582
+        height: 387
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_39
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 518
+        height: 516
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_40
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 0
+        width: 518
+        height: 516
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlappySheet1_41
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 0
+        width: 517
+        height: 516
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

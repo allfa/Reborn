@@ -1,0 +1,16 @@
+<Map MapperVersion="0.0.1">
+  <Elements>
+    <Element x="12" y="7.8" data="1" />
+    <Element x="17" y="9.36" data="2" />
+    <Element x="23" y="5.46" data="1" />
+    <Element x="12" y="7.8" data="1" />
+    <Element x="17" y="9.36" data="2" />
+    <Element x="23" y="5.46" data="1" />
+    <Element x="12" y="7.8" data="1" />
+    <Element x="17" y="9.36" data="2" />
+    <Element x="0" y="0" data="1" />
+    <Element x="23" y="5.46" data="2" />
+    <Element x="12" y="7.8" data="1" />
+    <Element x="17" y="9.36" data="2" />
+  </Elements>
+</Map>
