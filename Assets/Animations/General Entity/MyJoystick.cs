@@ -48,7 +48,8 @@ public class MyJoystick : MonoBehaviour {
 				case TouchPhase.Moved:
 					Vector3 pos = toWorld(temp.position);
 					Vector3 pdiff = pos-transform.position;
-					inner.localPosition = limitVar(pdiff, 1);
+					inner.localPosition = Vector3.MoveTowards(Vector3.zero, pdiff, 1);
+					//inner.localPosition = limitVar(pdiff, 1);
 	
 					break;
 				default:
@@ -57,11 +58,6 @@ public class MyJoystick : MonoBehaviour {
 				}
 			}
 		}
-	}
-	private Vector3 limitVar(Vector3 val, float limit){
-		Vector3 resp = val;
-		resp = Vector3.MoveTowards (Vector3.zero, resp, limit);
-		return resp;
 	}
 	public void SetTouch(Touch t){
 		initialTouch = t;

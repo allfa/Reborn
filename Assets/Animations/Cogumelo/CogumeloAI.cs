@@ -43,12 +43,24 @@ public class CogumeloAI : MonoBehaviour {
 	}
 	void OnCollisionEnter2D(Collision2D coll){
 		//Debug.Log ("Collided");
-		if (coll.gameObject.tag == "Enemy") {
+		switch (coll.gameObject.tag) {
+		case "Enemy":
 			var eAI = coll.gameObject.GetComponent<Animator> ();
 			eAI.SetBool ("isSleep", true);
-			eAI.Play("Sleep");
-			Destroy(gameObject);
+			eAI.Play ("Sleep");
+			Destroy (gameObject);
+			changeDirection (2);
+			break;
+		case "Moveable":
+			Physics2D.IgnoreCollision (coll.collider, this.GetComponent<Collider2D> ());
+			break;
+		case "Player":
+			//does nothing
+			break;
+		default:
+			Debug.Log ("Cogumelo does nothing with tag:" + coll.gameObject.tag);
+			changeDirection (2);
+			break;
 		}
-		changeDirection (2);
 	}
 }

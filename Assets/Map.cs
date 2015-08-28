@@ -105,6 +105,7 @@ public class Map : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
+		Time.fixedDeltaTime = 0.05f;
 		cfg = FindObjectOfType<config>();
 		if (!creator) {
 			Carregar ();	
@@ -121,12 +122,16 @@ public class Map : MonoBehaviour {
 	public void Carregar(bool dev){
 		InputField fileName = FindObjectOfType<InputField> ();
 		Map current;
-		if (cfg.isCustom)
+		if (cfg == null)
 			current = loadXML (Application.dataPath + "/Resources/" + ((!dev) ? (cfg.currentLevel) : (fileName.text)) + ".xml");
 		else {
-			//Debug.Log("Entra aqui");
-			TextAsset file = (TextAsset) Resources.Load ( cfg.currentLevel );
-			current = loadXML (file);
+			if (cfg.isCustom)
+				current = loadXML (Application.dataPath + "/Resources/" + ((!dev) ? (cfg.currentLevel) : (fileName.text)) + ".xml");
+			else {
+				//Debug.Log("Entra aqui");
+				TextAsset file = (TextAsset)Resources.Load (cfg.currentLevel);
+				current = loadXML (file);
+			}
 		}
 		this.MapperVersion = current.MapperVersion;
 		this.Elements = current.Elements;

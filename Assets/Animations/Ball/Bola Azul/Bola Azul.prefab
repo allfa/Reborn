@@ -50,7 +50,7 @@ GameObject:
   - 61: {fileID: 6123024}
   - 114: {fileID: 11427012}
   m_Layer: 0
-  m_Name: Down
+  m_Name: Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,8 +67,9 @@ GameObject:
   - 212: {fileID: 21250252}
   - 61: {fileID: 6121920}
   - 114: {fileID: 11451542}
+  - 61: {fileID: 6166882}
   m_Layer: 0
-  m_Name: Up
+  m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135,8 +136,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .389999986, y: 0, z: 0}
-  m_LocalScale: {x: .800000012, y: -.800000012, z: 1}
+  m_LocalPosition: {x: 3, y: 2, z: 0}
+  m_LocalScale: {x: .980000019, y: .980000019, z: 1}
   m_Children:
   - {fileID: 457220}
   - {fileID: 475988}
@@ -195,7 +196,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 1, y: 0}
+  m_Offset: {x: .899999976, y: 0}
   serializedVersion: 2
   m_Size: {x: .200000003, y: 1}
 --- !u!61 &6121920
@@ -208,7 +209,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -.899999976}
   serializedVersion: 2
   m_Size: {x: 1, y: .200000003}
 --- !u!61 &6123024
@@ -221,9 +222,22 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: .899999976}
   serializedVersion: 2
   m_Size: {x: 1, y: .200000003}
+--- !u!61 &6166882
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155418}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -.899999976}
+  serializedVersion: 2
+  m_Size: {x: 1.79999995, y: .200000003}
 --- !u!61 &6198666
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -234,7 +248,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -.899999976, y: 0}
   serializedVersion: 2
   m_Size: {x: .200000003, y: 1}
 --- !u!95 &9511796
@@ -282,6 +296,7 @@ MonoBehaviour:
   right: {fileID: 0}
   up: {fileID: 0}
   down: {fileID: 0}
+  movement: {x: 0, y: 0}
 --- !u!114 &11440642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -464,6 +479,18 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: Moveable
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: .980000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.y
+      value: .980000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: speed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

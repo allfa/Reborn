@@ -10,6 +10,7 @@ public class BallAI : MonoBehaviour {
 	public Transform right;
 	public Transform up;
 	public Transform down;
+	public Vector2 movement;
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
@@ -70,36 +71,30 @@ public class BallAI : MonoBehaviour {
 		anim.SetInteger ("Direction", 4);
 	}
 	void move(){
-		//left = right = up = down = null;
 		int Direction = anim.GetInteger ("Direction");
 		Rigidbody2D body = GetComponent<Rigidbody2D>();
-		//body.velocity = new Vector2 (0, 0);
 		body.constraints = RigidbodyConstraints2D.FreezeRotation;
 		switch(Direction)
 		{
 		case 0:
-			//Debug.Log("moving to 0");
-			body.velocity = new Vector2(0,speed);
-			//body.constraints = RigidbodyConstraints2D.FreezePositionX|RigidbodyConstraints2D.FreezeRotation;
+			movement = Vector2.up;
+			body.isKinematic = false;
 			break;
 		case 1:
-			//Debug.Log("moving to 1");
-			body.velocity = new Vector2(speed, 0);
-			//body.constraints = RigidbodyConstraints2D.FreezePositionY|RigidbodyConstraints2D.FreezeRotation;
+			movement = Vector2.right;
+			body.isKinematic=true;
 			break;
 		case 2:
-			//Debug.Log("moving to 2");
-			body.velocity = new Vector2(0, -speed);
-			//body.constraints = RigidbodyConstraints2D.FreezePositionX|RigidbodyConstraints2D.FreezeRotation;
+			movement = Vector2.down;
+			body.isKinematic=false;
 			break;
 		case 3:
-			//Debug.Log("moving to 3");
-			body.velocity = new Vector2(-speed, 0);
-			//body.constraints = RigidbodyConstraints2D.FreezePositionY|RigidbodyConstraints2D.FreezeRotation;
+			movement = Vector2.left;
+			body.isKinematic=true;
 			break;
 		case 4:
-			body.velocity = new Vector2(0, 0);
-			//body.constraints = RigidbodyConstraints2D.FreezeAll;
+			movement = Vector2.zero;
+			body.isKinematic=false;
 			break;
 		default:
 			Debug.LogError("Invalid Direction");
@@ -109,7 +104,15 @@ public class BallAI : MonoBehaviour {
 	public void Die(){
 		Debug.Log (name + " Died.");
 		anim.SetBool("isDead", true);
-		//anim.Play ("Die");
+	}
+	public void FixedUpdate(){
+		Rigidbody2D body = GetComponent<Rigidbody2D> ();
+		if ((movement == Vector2.down) && down)
+			return;
+		body.MovePosition (
+			body.position + 
+			Vector2.MoveTowards (Vector2.zero, movement, Time.fixedDeltaTime*speed)
+			);
 	}
 	public void postMortem(){
 		Destroy (gameObject);
