@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6e729a5f89fcb49799ddedc42180066e
-timeCreated: 1435599055
+timeCreated: 1440848472
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -60,7 +60,7 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 1
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tijolo-azul_1
       rect:
@@ -70,7 +70,7 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 1
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tijolo-azul_2
       rect:
@@ -80,7 +80,7 @@ TextureImporter:
         width: 512
         height: 512
       alignment: 1
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

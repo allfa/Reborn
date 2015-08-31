@@ -185,9 +185,35 @@ public class Map : MonoBehaviour {
 		foreach (Transform t in transform) {
 			Destroy (t.gameObject);
 		}
+		Transform last = null;
 		foreach(Element e in Elements){
 			Transform temp = spawnUnit(objList[e.data], Mathf.FloorToInt(e.x), Mathf.FloorToInt(e.y), transform);
-			if(temp.tag == "Spawner") temp.GetComponent<SpriteRenderer>().enabled = false;
+			switch(temp.tag){
+			case "Spawner":
+				temp.GetComponent<SpriteRenderer>().enabled = false;
+				break;
+			case "bg":
+				if(last){
+					if(last.localPosition.y == temp.localPosition.y && (Mathf.Abs(last.localPosition.x-temp.localPosition.x)==1)){
+						BoxCollider2D lastCollider = last.GetComponent<BoxCollider2D>();
+						lastCollider.enabled=false;
+						BoxCollider2D coll = temp.GetComponent<BoxCollider2D>();
+						coll.size = new Vector2(lastCollider.size.x+1, lastCollider.size.y);
+						if(last.localPosition.x>temp.localPosition.x){
+							coll.offset = new Vector2(coll.size.x/2*0.5f+0.5f, coll.offset.y);
+						}else{
+							coll.offset = new Vector2(-(coll.size.x-2)*0.5f, coll.offset.y);
+							// (-x+1)*0.5 + (1)*0.5 = (-x+2)*.5
+						}
+						//estara ok quando eu consertar o criador de fases
+						//coll.offset = new Vector2(coll.size.x/2-0.5f, coll.offset.y);
+					}
+				}
+				last = temp;
+				break;
+			default:
+				break;
+			}
 			//Debug.Log ("Object data:\nPosition:" + e.x + "," + e.y + "\nData:" + e.data + "\nInObject: LocalPosition: " + temp.localPosition);
 		}
 	}
